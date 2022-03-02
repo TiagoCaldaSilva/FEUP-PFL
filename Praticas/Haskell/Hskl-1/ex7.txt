@@ -1,0 +1,6 @@
+a) String, List(Char) -> [Char]
+b) Tuple(Char, Char, Char) -> (Char, Char, Char)
+c) List(Tuple(Bool, Char)) -> [(Bool, Char)]
+d) Tuple(List(Bool), List(Char)) -> ([Bool], [Char])
+e) [[a] -> [a]]
+f) [a -> a]

@@ -1,0 +1,10 @@
+raizes :: Float -> Float -> Float -> (Float, Float)
+-- raizes a b c =  (x1, x2)
+--                 where x1 = (-b + delta) / (2 * a)
+--                       x2 =  (-b - delta) / (2 * a)
+--                       delta = sqrt (b**2 - 4 * a * c)
+
+raizes a b c =  let x1 = (-b + delta) / (2 * a)
+                    x2 =  (-b - delta) / (2 * a)
+                in (x1, x2)
+                where delta = sqrt (b**2 - 4 * a * c)
